@@ -1,0 +1,15 @@
+{
+  "name": "flight-route-optimization",
+  "version": "1.0.0",
+  "description": "MERN stack flight route optimization",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
